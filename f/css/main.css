@@ -663,7 +663,7 @@ h2 {
       .categories__links a:last-of-type:after {
         display: none; }
   .categories__item:hover .categories__add {
-    max-height: 99px; }
+    max-height: 9999px; }
 
 .goods-list.slider-line {
   padding-bottom: 35px; }
