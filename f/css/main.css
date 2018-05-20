@@ -184,6 +184,13 @@ h2 {
     border-bottom: 1px dotted;
     line-height: 26px; }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
+input[type='number'] {
+  -moz-appearance: textfield; }
+
 .btn {
   display: inline-block;
   text-align: center;
