@@ -23,4 +23,15 @@ $(document).ready(function() {
   $(".catalog-btn").click(function(){
     $(".catalog-content").toggleClass("active");
   });
+  $('.spinner button:first-of-type').on('click', function() {
+    $(this).closest('.spinner').find('.input').val( parseInt($(this).closest('.spinner').find('input').val(), 10) + 1);
+    return false;
+  });
+  $('.spinner button:last-of-type').on('click', function() {
+    if(parseInt($(this).closest('.spinner').find('.input').val()) >= 2) {
+      $(this).closest('.spinner').find('.input').val( parseInt($(this).closest('.spinner').find('input').val(), 10) - 1);
+      return false;
+    }
+    return false;
+  });
 });
