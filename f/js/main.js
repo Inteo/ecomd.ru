@@ -14,6 +14,7 @@ function getGridSize(cols) {
       ($(window).innerWidth() < 1200) ? 4 : 5
 };
 $(document).ready(function() {
+  $('[data-toggle="tooltip"]').tooltip();
   $(".slider-line").each(function(){
     $(this).find('.slider-line__holder').on('init', function(event, slick){
       var stHeight = $(this).find('.slick-track').height();
@@ -33,5 +34,34 @@ $(document).ready(function() {
       return false;
     }
     return false;
+  });
+  $(".rating_action li").mouseenter(function(){
+    $(this).closest(".rating_action").find("li").removeClass("hover");
+    $(this).addClass("hover");
+  });
+  $(".rating_action").mouseleave(function(){
+    $(this).closest(".rating_action").find("li").removeClass("hover");
+  });
+  $(".rating_action li").click(function(){
+    $(this).closest(".rating_action").find("li").removeClass("hover").removeClass("active");
+    $(this).addClass("active");
+  });
+});
+$(function() {
+  $(".modal-inline").fancybox({
+    type: 'inline',
+    fixed: false,
+    fitToView: false,
+    width: '100%',
+    height: "auto",
+    maxWidth: 700,
+    autoSize: false,
+    helpers: {
+      overlay: {
+        css: {
+          'background': 'rgba(0, 0, 0, 0.4)'
+        }
+      }
+    }
   });
 });

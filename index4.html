@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta content='true' name='HandheldFriendly' />
+  <meta content='width' name='MobileOptimized' />
+  <meta content='yes' name='apple-mobile-web-app-capable' />
+  <title>Ecomd</title>
+  <link rel="stylesheet" href="f/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-select.css">
+  <link href="f/slick/slick.css" type="text/css" rel="stylesheet">
+  <link href="f/fancybox/jquery.fancybox.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="f/css/main.css">
+  <script src="f/js/jquery-3.2.1.min.js"></script>
+  <script src="f/js/bootstrap-select.min.js"></script>
+  <script src="f/js/tether.min.js"></script>
+  <script src="f/js/popper.min.js"></script>
+  <script src="f/js/util.js"></script>
+  <script src="f/js/bootstrap.js"></script>
+  <script src="f/js/tooltip.js"></script>
+  <script src="f/slick/slick.min.js"></script>
+  <script src="f/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="f/js/jquery.maskedinput.min.js"></script>
+  <script src="f/js/main.js"></script>
+</head>
+<body> 
+  <div class="wrap">
+    <header class="header">
+      <div class="header__main">
+        <div class="container">
+          <div class="row">
+            <div class="header__logo col-auto">
+              <a href="/" class="logo btn">
+                <img src="f/img/logo.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <div class="header__info">
+                <div class="row no-gutters justify-content-between align-items-center">
+                  <p class="col-auto">Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                  <div class="col-auto">
+                    <div class="city-picker picker">
+                      <i class="icon-marker"></i>
+                      <select class="selectpicker" title="Ярославль">
+                        <option>Ярославль</option>
+                        <option>Москва</option>
+                        <option>Владимир</option>
+                        <option>Тутаев</option>
+                        <option>Санкт-Петербург</option>
+                      </select>
+                    </div>
+                    <ul class="header__info-menu">
+                      <li>
+                        <a href="#">О компании<i></i></a>
+                        <ul>
+                          <li><a href="#">1111111111</a></li>
+                          <li><a href="#">2222222222</a></li>
+                          <li><a href="#">3333333333</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Сервис и гарантия</a></li>
+                      <li><a href="#">Вопрос-ответ</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="header__nav">
+                <div class="row justify-content-between align-items-center no-gutters">
+                  <div class="header__menu col">
+                    <ul>
+                      <li><a href="#">Доставка и оплата</a></li>
+                      <li><a href="#">Спецпредложения</a></li>
+                      <li><a href="#">Прайс-листы</a></li>
+                      <li><a href="#">Контакты</a></li>
+                    </ul>
+                  </div>
+                  <div class="header__phone col-auto">
+                    <p>Бесплатный звонок</p>
+                    <b>8 800 333 37 02</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__add">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <a href="#" class="catalog-btn btn"><i class="icon-ham"></i>Каталог продукции</a>
+            </div>
+            <div class="col">
+              <div class="header__search">
+                <form action="">
+                  <i class="icon-lense"></i>
+                  <input type="text" class="input" placeholder="Поиск по каталогу">
+                </form>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="header__acc">
+                <a href="#"><i class="icon-person"></i>Войти</a>
+                <a href="#"><i class="icon-cart"></i>Корзина<b>0</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-content">
+            <div class="row">
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Дизельные двигатели</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ММЗ</a></li>
+                  <li><a href="#">Scania</a></li>
+                  <li><a href="#">John Deer</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Perkins</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Коробки переключения передач</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Синхронные генераторы</a></li>
+                  <li><a href="#">Linz</a></li>
+                  <li><a href="#">Leroy Somer</a></li>
+                  <li><a href="#">Sincro</a></li>
+                  <li><a href="#">БЭМЗ</a></li>
+                  <li><a href="#">Электроагрегат г. Курск</a></li>
+                  <li><a href="#">Marelli</a></li>
+                  <li><a href="#">Stamford</a></li>
+                  <li><a href="#">Запасные части</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Запасные части</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ЯЗДА</a></li>
+                  <li><a href="#">Компрессоры Аурида</a></li>
+                  <li><a href="#">Турбокомпрессоры CZ</a></li>
+                  <li><a href="#">Генераторы</a></li>
+                  <li><a href="#">Стартеры</a></li>
+                  <li><a href="#">Фильтры Дифа</a></li>
+                  <li><a href="#">Показать все<i></i></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Генераторы от ВОМ трактора</a></li>
+                  <li><a href="#">РГУ СКАТ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Российский Речной Регистр (РРР)</a></li>
+                  <li><a href="#">Редукторы DMT</a></li>
+                  <li><a href="#">Двигатели</a></li>
+                  <li><a href="#">Запчасти ЯМЗ</a></li>
+                  <li><a href="#">Генераторы синхронные</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main role="main" class="content">
+      <div class="container">
+        <section class="section section_unbot">
+          <div class="row justify-content-between">
+            <div class="col">
+              <ul class="breadcrumbs">
+                <li><a href="#">Главная</a>
+                </li><li><a href="#">Каталог продукции</a>
+                </li><li><a href="#">Дизельные двигатели</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-auto">
+              <div class="row print-send justify-content-md-end">
+                <div class="col-auto">
+                  <a href="#"><i class="icon-print"></i>Распечатать страницу</a>
+                </div>
+                <div class="col-auto">
+                  <a href="#"><i class="icon-mail"></i>Отправить на E-mail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="goods">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <div class="goods__photo">
+                  <div class="goods__photo-promo">-10%</div>
+                  <div class="goods-slider">
+                    <div class="goods-slider__item"><img src="f/img/goods/14.jpg" alt=""></div>
+                    <div class="goods-slider__item"><img src="f/img/goods/15.jpg" alt=""></div>
+                    <div class="goods-slider__item"><img src="f/img/goods/16.jpg" alt=""></div>
+                    <div class="goods-slider__item"><img src="f/img/goods/17.jpg" alt=""></div>
+                  </div>
+                </div>
+                <script>
+                  $(".goods-slider").slick({
+                    autoplay: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    dots: true,
+                    customPaging : function(slider, i) {
+                      var thumb = $(slider.$slides[i]).find("img").attr("src");
+
+                      return '<a><img src="'+thumb+'"></a>';
+                    }
+                  });
+                </script>
+              </div>
+              <div class="col">
+                <div class="goods__main">
+                  <div class="goods__art">арт. 238М21000186</div>
+                  <h1 class="goods__name">Двигатель ЯМЗ-238М2 (238М2-1000186)</h1>
+                  <ul class="goods__details">
+                    <li>
+                      <div class="row no-gutters align-items-end justify-content-between">
+                        <div class="col goods__details-text"><span>Тип двигателя</span></div>
+                        <div class="col-auto col-md-5 col-xl-4"><b>V8</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row no-gutters align-items-end justify-content-between">
+                        <div class="col goods__details-text"><span>Мощность, кВт (л.с.)</span></div>
+                        <div class="col-auto col-md-5 col-xl-4"><b>176 (240)</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row no-gutters align-items-end justify-content-between">
+                        <div class="col goods__details-text"><span>Частота вращения, мин<sup>-1</sup></span></div>
+                        <div class="col-auto col-md-5 col-xl-4"><b>2100</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row no-gutters align-items-end justify-content-between">
+                        <div class="col goods__details-text"><span>Максимальный крутящий момент, Н·м (кгс·м)</span></div>
+                        <div class="col-auto col-md-5 col-xl-4"><b>710 (72,5)</b></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row no-gutters align-items-end justify-content-between">
+                        <div class="col goods__details-text"><span>Частота максимального крутящего момента, мин<sup>-1</sup></span></div>
+                        <div class="col-auto col-md-5 col-xl-4"><b>1250-1450</b></div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="row no-gutters justify-content-between">
+                    <div class="col">
+                      <div class="goods__status"><i class="icon-ham2"></i>В наличии</div>
+                      <div class="goods__price">
+                        <div class="goods__price-title">Цена:</div>
+                        <div class="row no-gutters-sm justify-content-between-sm">
+                          <div class="col-12 col-sm-auto col-lg-12 col-xl-auto">
+                            <div class="goods__price-main goods__price-main_promo">290 000 <i class="rub">&#8381;</i>
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div class="goods__price-old">
+                              <span>Старая цена:</span>
+                              <span>310 000</span> <i class="rub">&#8381;</i>
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div class="goods__price-economy">
+                              <span>Экономия:</span>
+                              <span>20 000</span> <i class="rub">&#8381;</i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <ul class="goods__price-types row">
+                        <li class="col-6 col-sm col-lg-6 col-xl">
+                          <span data-toggle="tooltip" data-html="true" data-placement="top" title="<div>При заказе на сумму</div>
+80 000 - 149 999 в месяц">Розница</span>
+                          <div>
+                            <b>290 000</b> <i class="rub">&#8381;</i>
+                          </div>
+                        </li>
+                        <li class="col-6 col-sm col-lg-6 col-xl">
+                          <span data-toggle="tooltip" data-html="true" data-placement="top" title="<div>При заказе на сумму</div>
+80 000 - 149 999 в месяц">Мелкий опт</span>
+                          <div>
+                            <b>283 000</b> <i class="rub">&#8381;</i>
+                          </div>
+                        </li>
+                        <li class="col-6 col-sm col-lg-6 col-xl">
+                          <span data-toggle="tooltip" data-html="true" data-placement="top" title="<div>При заказе на сумму</div>
+80 000 - 149 999 в месяц">Опт</span>
+                          <div>
+                            <b>270 000</b> <i class="rub">&#8381;</i>
+                          </div>
+                        </li>
+                        <li class="col-6 col-sm col-lg-6 col-xl">
+                          <span data-toggle="tooltip" data-html="true" data-placement="top" title="<div>При заказе на сумму</div>
+80 000 - 149 999 в месяц">VIP</span>
+                          <div>
+                            <b>256 000</b> <i class="rub">&#8381;</i>
+                          </div>
+                        </li>
+                      </ul>
+                      <p>
+                        <a href="#"><i class="icon-rub"></i><span class="pseudo">Как определить цену?</span></a>
+                      </p>
+                      <a href="#"><i class="icon-car"></i>Способы доставки</a>
+
+                    </div>
+                    <div class="col-12 col-md-5 col-xl-4">
+                      <form class="goods__cart">
+                        <div class="goods__cart-title">Количество</div>
+                        <div class="spinner">
+                          <input type="text" class="input" value="2">
+                          <div class="spinner__btns">
+                            <button type="button"><i class="up-arrow"></i></button>
+                            <button type="button"><i class="d-arrow"></i></button>
+                          </div>
+                        </div>
+                        <button class="btn"><i class="icon-cart2"></i>В корзину</button>
+                        <button class="btn btn-bordered">Купить в 1 клик</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="goods__tabs">
+              <ul class=" nav nav-tabs row">
+                <li class="col-12 col-md"><a class="active" data-toggle="tab" href="#panel1">Описание</a></li>
+                <li class="col-12 col-md"><a data-toggle="tab" href="#panel2">Характеристики</a></li>
+                <li class="col-12 col-md"><a data-toggle="tab" href="#panel3">Применяемость</a></li>
+                <li class="col-12 col-md"><a data-toggle="tab" href="#panel4">Документация</a></li>
+                <li class="col-12 col-md"><a data-toggle="tab" href="#panel5">Отзывы</a></li>
+              </ul>
+              <div class="tab-content">
+                <div id="panel1" class="tab-pane fade active show">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__description">
+                        <li>
+                          <b>Тип двигателя.</b> 8-цилиндровый дизельный двигатель с V-образным расположением цилиндров, 4-тактный, с непосредственным впрыском топлива (без турбонаддува).
+                        </li>
+                        <li>
+                          <b>Система топливоподачи.</b> Разделенного типа, производства ЯЗДА. ТНВД – шестиплунжерный (рядный 80.5-30)
+                        </li>
+                        <li>
+                          <b>Регулятор частоты вращения.</b> Механический, всережимный. Топливоподкачивающий насос – поршневого типа.
+                        </li>
+                        <li>
+                          <b>Топливные фильтры.</b> Грубой и тонкой очистки со сменными фильтрующими элементами.
+                        </li>
+                        <li>
+                          <b>Система охлаждения.</b> Жидкостная, закрытого типа с принудительной циркуляцией охлаждающей жидкости. Оборудована термостатическим устройством для автоматического поддержания теплового режима двигателя.
+                        </li>
+                        <li>
+                          <b>Водяной насос.</b> Центробежного типа с ременным приводом.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__description">
+                        <li>
+                          <b>Генератор.</b> Переменного тока с клиноременным приводом, с напряжением 28В.
+                        </li>
+                        <li>
+                          <b>Пусковое устройство.</b> Электрический стартер, номинальное напряжение 24В
+                        </li>
+                        <li>
+                          <b>Сцепление.</b> 1. Сухое фрикционное, однодисковое, с диафрагменной вытяжной пружиной и накладками на безасбестовой основе. 2. Сухое двухдисковое, фрикционного типа с периферийными цилиндрическими пружинами.
+                        </li>
+                        <li>
+                          <b>Коробка передач.</b> Механическая пятиступенчатая, трехходовая с синхронизаторами на 2-3 и 4-5 передачах.Д опускаемый отбор мощности от шестерни отбора мощности – до 30 л.с.
+                        </li>
+                        <li>
+                          <b>Экология.</b> Двигатель и его комплектации по выбросам вредных веществ соответствует экологическому классу 0 – Правила ООН №49-01.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id="panel2" class="tab-pane fade">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__features">
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Мощность
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>176</b> кВт (<b>240</b> л.с.)
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Частота вращения
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>2100</b> мин<sup>-1</sup>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Максимальный крутящий момент
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>883</b> Н.м. (<b>90</b> Кгс.м)
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Частота максимального крутящего момента
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>1250-1450</b> мин<sup>-1</sup>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Минимальный удельный расход топлива
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>214</b> г/кВт.ч (<b>157</b> Г/л.с.ч)
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Сцепление
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>Нет</b>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__features">
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Коробка передач
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>Нет</b>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Габаритные размеры
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>1220</b> х <b>1005</b> х <b>1220</b> мм
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Масса
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>1075</b> кг
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Генератор
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>Модель 1322.3771 или Г273.3701 В2</b>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              ТНВД
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>80.1111005-30</b>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-12 col-sm-7">
+                              Ресурс до капитального ремонта спецтехника (ДГУ)
+                            </div>
+                            <div class="col-12 col-sm-5">
+                              <b>10 000 (25 000)</b> часов
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id="panel3" class="tab-pane fade">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__applicability">
+                        <li>
+                          <p><b>Назначение, потребитель</b></p>
+                          Судовые двигатели, судовые дизель-редукторные агрегаты (Тюменьсудокомплект), дизельные электростанции (ООО «Компания Дизель»), Железнодорожные краны КЖС-16, КЖ-461, КЖ-661, КЖГ-10 (ОАО «Машзавод им. 1 мая, Киров)
+                        </li>
+                        <li>
+                          <p><b>Основные конструкционные отличия</b></p>
+                          Шкив коленчатого вала 2-х ручьевой, выпускные коллекторы прямые, воздухоочиститель, генератор 1322.3771 или Г 273.3701 В2, ТНВД с плунжерной парой 10/11, сапун справа спереди.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__applicability">
+                        <li>
+                          <p><b>Комплект поставки</b></p>
+                          238М2-1000186 поставляется без сцепления и КПП.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id="panel4" class="tab-pane fade">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__docs">
+                        <li>
+                          <a href="#" class="file">
+                            <div class="row">
+                              <div class="col-auto">
+                                <i class="icon-doc"></i>
+                              </div>
+                              <div class="col">
+                                <b>Руководство по эксплуатации</b>
+                                <span>.doc, 512Кб</span>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <ul class="goods__docs">
+                        <li>
+                          <a href="#" class="file">
+                            <div class="row align-items-center">
+                              <div class="col-auto">
+                                <i class="icon-doc"></i>
+                              </div>
+                              <div class="col">
+                                <b>Руководство по эксплуатации</b>
+                                <span>.doc, 512Кб</span>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div id="panel5" class="tab-pane fade">
+                  <div class="goods__feedback">
+                    <ul class="feedback">
+                      <li>
+                        <div class="row">
+                          <div class="col-12 col-md-2">
+                            <div class="feedback__name">Алекандр</div>
+                            <div class="feedback__date">13.04.2018</div>
+                          </div>
+                          <div class="col">
+                            <ul class="rating">
+                              <li><i class="icon-star"></i></li>
+                              <li class="active"><i class="icon-star"></i></li>
+                              <li><i class="icon-star"></i></li>
+                              <li><i class="icon-star"></i></li>
+                              <li><i class="icon-star"></i></li>
+                            </ul>
+                            <p class="feedback__text">Расход 40 литров при 20 тоннах тягач с полуприцепом. Двигатели надежные при правильной эксплуатации. Уже прошел по 200 тыс. км без ремонта.</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="col-12 col-md-2">
+                            <div class="feedback__name">Алекандр</div>
+                            <div class="feedback__date">13.04.2018</div>
+                          </div>
+                          <div class="col">
+                            <ul class="rating">
+                              <li><i class="icon-star"></i></li>
+                              <li><i class="icon-star"></i></li>
+                              <li><i class="icon-star"></i></li>
+                              <li class="active"><i class="icon-star"></i></li>
+                              <li><i class="icon-star"></i></li>
+                            </ul>
+                            <p class="feedback__text">Расход 40 литров при 20 тоннах тягач с полуприцепом. Двигатели надежные при правильной эксплуатации. Уже прошел по 200 тыс. км без ремонта.</p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <a href="#feedback" class="modal-inline btn btn-bordered goods__feedback-add">Оставить отзыв</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <section id="gl1" class="goods-list slider-line">
+              <div class="container">
+                <div class="row justify-content-start justify-content-sm-between">
+                  <div class="col">
+                    <h2>Готовые комплекты для ТО</h2>
+                  </div>
+                  <div class="col-sm-auto">
+                    <div class="slider-line__nav"></div>
+                  </div>
+                </div>
+                <div class="goods-list__holder slider-line__holder">
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/6.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-0 (100 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>1 326 000</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/9.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-1 (500 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>29 500</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                          </a>
+                        </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/10.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-2 (1000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>667 880</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/11.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-3 (2000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>67 400</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/10.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-4 (3000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>1 012 820</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/9.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-3 (2000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>67 400</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/5.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-4 (3000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>1 012 820</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <script>
+                  $(document).ready(function(){
+                    $('#gl1 .goods-list__holder').slick({
+                      'prevArrow': '<button type="button" class="prev"></button>',
+                      'nextArrow': '<button type="button" class=next"></button>',
+                      'appendArrows': $('#gl1 .slider-line__nav'),
+                      'slidesToShow': getGridSize(),
+                      'infinite': false
+                    });
+                  });
+                </script>
+              </div>
+            </section>
+            <section id="gl2" class="goods-list slider-line">
+              <div class="container">
+                <div class="row justify-content-start justify-content-sm-between">
+                  <div class="col">
+                    <h2>С этим товаром покупают</h2>
+                  </div>
+                  <div class="col-sm-auto">
+                    <div class="slider-line__nav"></div>
+                  </div>
+                </div>
+                <div class="goods-list__holder slider-line__holder">
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/6.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-0 (100 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>1 326 000</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/9.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-1 (500 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>29 500</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/10.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-2 (1000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>667 880</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/11.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-3 (2000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>67 400</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/10.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-4 (3000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>1 012 820</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/9.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-3 (2000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>67 400</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="goods-list__item">
+                    <a href="#">
+                      <span class="goods-list__img">
+                        <img src="f/img/goods/5.jpg" alt="">
+                      </span>
+                      <span class="goods-list__name">ЗИП ТО-4 (3000 м/ч)</span>
+                      <span class="goods-list__price">
+                        от <b>1 012 820</b>
+                        <i class="goods-list__rub">&#8381;</i>
+                        <span class="goods-list__cart"><i class="icon-cart"></i></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <script>
+                  $(document).ready(function(){
+                    $('#gl2 .goods-list__holder').slick({
+                      'prevArrow': '<button type="button" class="prev"></button>',
+                      'nextArrow': '<button type="button" class=next"></button>',
+                      'appendArrows': $('#gl2 .slider-line__nav'),
+                      'slidesToShow': getGridSize(),
+                      'infinite': false
+                    });
+                  });
+                </script>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="question">
+      <div class="container">
+        <div class="question__holder">
+          <div class="row">
+            <div class="col">
+              <p>
+                Задайте вопрос по продукции или сотрудничеству или просто позвоните нам <a href="#">8 800 333 37 02</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="btn btn-white"><i class="icon-qst"></i>Задать вопрос</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <div class="footer__logo">
+                <img src="f/img/logo2.png" alt="">
+              </div>
+              <div class="footer__caption">
+                <p>Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                © 2005-2018 <br>
+                ООО «Дизель Экспорт»
+              </div>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Компания</p>
+              <ul class="footer__menu">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Свидетельства и сертификаты</a></li>
+                <li><a href="#">Сервис и гарантии</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Новости</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Каталог</p>
+              <ul class="footer__menu">
+                <li><a href="#">Двигатели</a></li>
+                <li><a href="#">Синхронные генераторы</a></li>
+                <li><a href="#">Коробки переключения передач</a></li>
+                <li><a href="#">Запчасти</a></li>
+                <li><a href="#">Российский речной регистр</a></li>
+                <li><a href="#">Редуктор-генераторные установки</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Покупателю</p>
+              <ul class="footer__menu">
+                <li><a href="#">Оплата и доставки</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Прайс-листы</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Вопрос-ответ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Контакты</p>
+              <span>150044, г. Ярославль, Ленинградский проспект, д. 33, оф. 503</span>
+              <b><a href="#">sales@ecomd.ru</a></b>
+              <span>8 (800) 333-37-02</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__madeby">
+        <div class="container">
+          <span>Создание сайта</span> <a href="#"><i class="icon-inteo"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="popups">
+    <div class="popup" id="feedback">
+      <form action="">
+        <div class="popup__title">Оставить отзыв</div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="popup__rating">
+              <span>Ваш оценка</span>
+              <ul class="rating rating_action">
+                <li><i class="icon-star2"></i></li>
+                <li><i class="icon-star2"></i></li>
+                <li><i class="icon-star2"></i></li>
+                <li><i class="icon-star2"></i></li>
+                <li><i class="icon-star2"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="popup__phone"><input type="tel" required class="input" placeholder="(___) ___-__-__"></div>
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="text" class="input" placeholder="Ваше имя">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="text" class="input" placeholder="Электронная почта">
+          </div>
+        </div>
+        <textarea class="input" placeholder="Ваш отзыв"></textarea>
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <input type="text" class="input popup__code" placeholder="Код">
+          </div>
+          <div class="col">
+            <div class="popup__capcha">
+              <img src="f/img/capcha.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-auto">
+            <button class="btn popup__submit">Отправить</button>
+          </div>
+          <script>
+            $('.popup__phone input').mask('(999) 999-99-99');
+          </script>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
