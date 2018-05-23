@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta content='true' name='HandheldFriendly' />
+  <meta content='width' name='MobileOptimized' />
+  <meta content='yes' name='apple-mobile-web-app-capable' />
+  <title>Ecomd</title>
+  <link rel="stylesheet" href="f/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-select.css">
+  <link href="f/slick/slick.css" type="text/css" rel="stylesheet">
+  <link href="f/fancybox/jquery.fancybox.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="f/css/main.css">
+  <script src="f/js/jquery-3.2.1.min.js"></script>
+  <script src="f/js/bootstrap-select.min.js"></script>
+  <script src="f/js/tether.min.js"></script>
+  <script src="f/js/popper.min.js"></script>
+  <script src="f/js/util.js"></script>
+  <script src="f/js/bootstrap.js"></script>
+  <script src="f/js/tooltip.js"></script>
+  <script src="f/slick/slick.min.js"></script>
+  <script src="f/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="f/js/jquery.maskedinput.min.js"></script>
+  <script src="f/js/main.js"></script>
+</head>
+<body> 
+  <div class="wrap">
+    <header class="header">
+      <div class="header__main">
+        <div class="container">
+          <div class="row">
+            <div class="header__logo col-auto">
+              <a href="/" class="logo btn">
+                <img src="f/img/logo.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <div class="header__info">
+                <div class="row no-gutters justify-content-between align-items-center">
+                  <p class="col-auto">Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                  <div class="col-auto">
+                    <div class="city-picker picker">
+                      <i class="icon-marker"></i>
+                      <select class="selectpicker" title="Ярославль">
+                        <option>Ярославль</option>
+                        <option>Москва</option>
+                        <option>Владимир</option>
+                        <option>Тутаев</option>
+                        <option>Санкт-Петербург</option>
+                      </select>
+                    </div>
+                    <ul class="header__info-menu">
+                      <li>
+                        <a href="#">О компании<i></i></a>
+                        <ul>
+                          <li><a href="#">1111111111</a></li>
+                          <li><a href="#">2222222222</a></li>
+                          <li><a href="#">3333333333</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Сервис и гарантия</a></li>
+                      <li><a href="#">Вопрос-ответ</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="header__nav">
+                <div class="row justify-content-between align-items-center no-gutters">
+                  <div class="header__menu col">
+                    <ul>
+                      <li><a href="#">Доставка и оплата</a></li>
+                      <li><a href="#">Спецпредложения</a></li>
+                      <li><a href="#">Прайс-листы</a></li>
+                      <li><a href="#">Контакты</a></li>
+                    </ul>
+                  </div>
+                  <div class="header__phone col-auto">
+                    <p>Бесплатный звонок</p>
+                    <b>8 800 333 37 02</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__add">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <a href="#" class="catalog-btn btn"><i class="icon-ham"></i>Каталог продукции</a>
+            </div>
+            <div class="col">
+              <div class="header__search">
+                <form action="">
+                  <i class="icon-lense"></i>
+                  <input type="text" class="input" placeholder="Поиск по каталогу">
+                </form>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="header__acc">
+                <a href="#"><i class="icon-person"></i>Войти</a>
+                <a href="#"><i class="icon-cart"></i>Корзина<b>0</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-content">
+            <div class="row">
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Дизельные двигатели</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ММЗ</a></li>
+                  <li><a href="#">Scania</a></li>
+                  <li><a href="#">John Deer</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Perkins</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Коробки переключения передач</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Синхронные генераторы</a></li>
+                  <li><a href="#">Linz</a></li>
+                  <li><a href="#">Leroy Somer</a></li>
+                  <li><a href="#">Sincro</a></li>
+                  <li><a href="#">БЭМЗ</a></li>
+                  <li><a href="#">Электроагрегат г. Курск</a></li>
+                  <li><a href="#">Marelli</a></li>
+                  <li><a href="#">Stamford</a></li>
+                  <li><a href="#">Запасные части</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Запасные части</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ЯЗДА</a></li>
+                  <li><a href="#">Компрессоры Аурида</a></li>
+                  <li><a href="#">Турбокомпрессоры CZ</a></li>
+                  <li><a href="#">Генераторы</a></li>
+                  <li><a href="#">Стартеры</a></li>
+                  <li><a href="#">Фильтры Дифа</a></li>
+                  <li><a href="#">Показать все<i></i></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Генераторы от ВОМ трактора</a></li>
+                  <li><a href="#">РГУ СКАТ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Российский Речной Регистр (РРР)</a></li>
+                  <li><a href="#">Редукторы DMT</a></li>
+                  <li><a href="#">Двигатели</a></li>
+                  <li><a href="#">Запчасти ЯМЗ</a></li>
+                  <li><a href="#">Генераторы синхронные</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main role="main" class="content">
+      <div class="container">
+        <div class="section">
+          <ul class="breadcrumbs">
+            <li><a href="#">Главная</a>
+            </li><li><a href="#">Корзина</a>
+            </li><li><a href="#">Оформление заказа</a></li>
+          </ul>
+          <h1>Оформление заказа</h1>
+          <div class="ordering">
+            <div class="row">
+              <div class="col-12 col-lg">
+                <div class="ordering-section">
+                  <div class="ordering-section__title" data-toggle="collapse" data-target="#scroll-down1" aria-expanded="true" aria-controls="scroll-down1">
+                    <div class="row">
+                      <div class="col-12 col-sm-auto">
+                        <div class="ordering-section__title-count">1</div>
+                      </div>
+                      <div class="col-12 col-sm">
+                        <h2>Товары в заказе</h2>
+                      </div>
+                      <div class="col-sm-auto mr-sm-auto">
+                        <a href="#">Изменить заказ</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-section__content collapse show" id="scroll-down1">
+                    <ul class="ordering-goods">
+                      <li>
+                        <div class="row">
+                          <div class="col-12 col-sm">
+                            <div class="ordering-goods__name">Дизельный двигатель ЯМЗ-236М2-35</div>
+                            <div class="ordering-goods__art">арт. 238М21000186</div>
+                          </div>
+                          <div class="col-12 col-sm-auto mr-sm-auto">
+                            <div class="ordering-goods__amount">1 шт.</div>
+                          </div>
+                          <div class="col-12 col-sm-auto mr-sm-auto">
+                            <div class="ordering-goods__price">290 000 <i class="rub">&#8381;</i></div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="col-12 col-sm">
+                            <div class="ordering-goods__name">Дизельный двигатель ЯМЗ-236А</div>
+                            <div class="ordering-goods__art">арт. 238М21000186</div>
+                          </div>
+                          <div class="col-12 col-sm-auto mr-sm-auto">
+                            <div class="ordering-goods__amount">1 шт.</div>
+                          </div>
+                          <div class="col-12 col-sm-auto mr-sm-auto">
+                            <div class="ordering-goods__price">290 000 <i class="rub">&#8381;</i></div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="col-12 col-sm">
+                            <div class="ordering-goods__name">Дизельный двигатель ЯМЗ-236Г</div>
+                            <div class="ordering-goods__art">арт. 238М21000186</div>
+                          </div>
+                          <div class="col-12 col-sm-auto mr-sm-auto">
+                            <div class="ordering-goods__amount">1 шт.</div>
+                          </div>
+                          <div class="col-12 col-sm-auto mr-sm-auto">
+                            <div class="ordering-goods__price">290 000 <i class="rub">&#8381;</i></div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="ordering-section__nav row">
+                      <div class="col-auto">
+                        <a href="#" class="btn">Далее <i class="r-arrow"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ordering-section">
+                  <div class="ordering-section__title collapsed" data-toggle="collapse" data-target="#scroll-down2" aria-expanded="false" aria-controls="scroll-down2">
+                    <div class="row">
+                      <div class="col-12 col-sm-auto">
+                        <div class="ordering-section__title-count">2</div>
+                      </div>
+                      <div class="col-12 col-sm">
+                        <h2>Регион доставки</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-section__content collapse" id="scroll-down2">
+                    <div class="ordering-region">
+                      <div class="ordering-region__caption">Начните вводить адрес и выберите подходяший вариант из предложенных</div>
+                      <div class="ordering-region__select">
+                        <i class="icon-lense"></i>
+                        <input type="text" class="input" placeholder="Россия, Ярославская область, Ярославль">
+                      </div>
+                    </div>
+                    <div class="ordering-section__nav row">
+                      <div class="col-auto">
+                        <a href="#" class="btn btn-bordered"><i class="l-arrow"></i>Назад</a>
+                      </div>
+                      <div class="col-auto">
+                        <a href="#" class="btn">Далее <i class="r-arrow"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ordering-section">
+                  <div class="ordering-section__title collapsed" data-toggle="collapse" data-target="#scroll-down3" aria-expanded="false" aria-controls="scroll-down3">
+                    <div class="row">
+                      <div class="col-12 col-sm-auto">
+                        <div class="ordering-section__title-count">3</div>
+                      </div>
+                      <div class="col-12 col-sm">
+                        <h2>Способ доставки</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-section__content collapse" id="scroll-down3">
+                    <div class="ordering-delivery">
+                      <div class="row align-items-stretch">
+                        <div class="col-12 col-lg-6">
+                          <input type="radio" name="delivery" id="delivery1" class="texted-radio" checked>
+                          <label for="delivery1">
+                            <b>Самовывоз</b>
+                            Вы можете самостоятельно забрать заказ со <a href="#">складов</a> в сроки, согласованные с менеджером.
+                          </label>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                          <input type="radio" name="delivery" id="delivery2" class="texted-radio">
+                          <label for="delivery2">
+                            <b>Транспортной компанией
+                              в регионы</b>
+                            Стоимость доставки согласовывается
+                            с менеджером
+                          </label>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                          <input type="radio" name="delivery" id="delivery3" class="texted-radio">
+                          <label for="delivery3">
+                            <b>Транспортной компанией
+                              в страны СНГ</b>
+                            Стоимость доставки согласовывается
+                            с менеджером
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ordering-section__nav row">
+                      <div class="col-auto">
+                        <a href="#" class="btn btn-bordered"><i class="l-arrow"></i>Назад</a>
+                      </div>
+                      <div class="col-auto">
+                        <a href="#" class="btn">Далее <i class="r-arrow"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ordering-section">
+                  <div class="ordering-section__title collapsed" data-toggle="collapse" data-target="#scroll-down4" aria-expanded="false" aria-controls="scroll-down4">
+                    <div class="row">
+                      <div class="col-12 col-sm-auto">
+                        <div class="ordering-section__title-count">4</div>
+                      </div>
+                      <div class="col-12 col-sm">
+                        <h2>Транспортные компании</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-section__content collapse" id="scroll-down4">
+                    <div class="ordering-transport">
+                      <div class="row align-items-stretch">
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport1" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport1">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/1.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">ПЭК</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport2" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport2">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/2.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">ЖелДор Экспедиция</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport3" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport3">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/3.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">Грузовозофф</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport4" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport4">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/4.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">Деловые линии</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport5" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport5">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/5.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">Байкал Сервис</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport6" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport6">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/6.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">Энергия</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport7" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport7">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/7.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">Ратэк</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport8" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport8">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/8.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">КИТ</span>
+                          </label>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                          <input type="radio" name="transport" id="transport9" class="texted-radio texted-radio_ico" checked>
+                          <label for="transport9">
+                            <span class="texted-radio__img">
+                              <img src="f/img/transport/9.png" alt="">
+                            </span>
+                            <span class="texted-radio__text">Рейл Континент</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ordering-section__nav row">
+                      <div class="col-auto">
+                        <a href="#" class="btn btn-bordered"><i class="l-arrow"></i>Назад</a>
+                      </div>
+                      <div class="col-auto">
+                        <a href="#" class="btn">Далее <i class="r-arrow"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ordering-section">
+                <div class="ordering-section__title collapsed" data-toggle="collapse" data-target="#scroll-down5" aria-expanded="false" aria-controls="scroll-down5">
+                  <div class="row">
+                    <div class="col-12 col-sm-auto">
+                      <div class="ordering-section__title-count">5</div>
+                    </div>
+                    <div class="col-12 col-sm">
+                      <h2>Способ оплаты</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="ordering-section__content collapse" id="scroll-down5">
+                  <div class="ordering-payment">
+                    <div class="row align-items-stretch">
+                      <div class="col-12 col-lg-6">
+                        <input type="radio" name="payment" id="payment1" class="texted-radio" checked>
+                        <label for="payment1">
+                          <b>Наличный расчет</b>
+                          Вы можете оплатить заказ в нашем офисе по адресу:  Россия, г. Ярославль Ленинградский проспект, д. 33, оф. 503
+                        </label>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <input type="radio" name="payment" id="payment2" class="texted-radio">
+                        <label for="payment2">
+                          <b>Банковской картой</b>
+                          Принимаем к оплате пластиковые карты VISA, MasterCard, МИР
+                        </label>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <input type="radio" name="payment" id="payment3" class="texted-radio">
+                        <label for="payment3">
+                          <b>Безналичный расчет</b>
+                          Способ оплаты согласовывается с менеджером при выставлении счета после оформления заказа
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-section__nav row">
+                    <div class="col-auto">
+                      <a href="#" class="btn btn-bordered"><i class="l-arrow"></i>Назад</a>
+                    </div>
+                    <div class="col-auto">
+                      <a href="#" class="btn">Далее <i class="r-arrow"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="ordering-section">
+                  <div class="ordering-section__title collapsed" data-toggle="collapse" data-target="#scroll-down6" aria-expanded="false" aria-controls="scroll-down6">
+                    <div class="row">
+                      <div class="col-12 col-sm-auto">
+                        <div class="ordering-section__title-count">6</div>
+                      </div>
+                      <div class="col-12 col-sm">
+                        <h2>Данные покупателя</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ordering-section__content collapse" id="scroll-down6">
+                    <div class="ordering-buyer">
+                      <ul class="nav nav-tabs row no-gutters">
+                        <li class="col-12 col-md-auto"><a data-toggle="tab" href="#panel1"><span class="pseudo">Для физического лица</span></a></li>
+                        <li class="col-12 col-md-auto"><a class="active" data-toggle="tab" href="#panel2">Для юридического лица</a></li>
+                      </ul>
+                      <div class="tab-content">
+                        <div id="panel1" class="tab-pane fade">
+
+                        </div>
+                        <div id="panel2" class="tab-pane fade active show">
+                          <div class="row align-items-center">
+                            <div class="col-12 col-md-3">
+                              <b>ФИО</b>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="input">
+                            </div>
+                          </div>
+                          <div class="row align-items-center">
+                            <div class="col-12 col-md-3">
+                              <b>Электронная почта</b>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="input">
+                            </div>
+                          </div>
+                          <div class="row align-items-center">
+                            <div class="col-12 col-md-3">
+                              <b>Телефон</b>
+                            </div>
+                            <div class="col">
+                              <div class="phone"><input type="tel" required class="input" placeholder="(___) ___-__-__"></div>
+                            </div>
+                          </div>
+                          <div class="row align-items-center">
+                            <div class="col-12 col-md-3">
+                              <b>Организация</b>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="input">
+                            </div>
+                          </div>
+                          <div class="row align-items-center">
+                            <div class="col-12 col-md-3">
+                              <b>ИНН</b>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="input">
+                            </div>
+                          </div>
+                          <div class="row align-items-center">
+                            <div class="col-12 col-md-3">
+                              <b>КПП</b>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="input">
+                            </div>
+                          </div>
+                          <div class="row align-items-center">
+                            <div class="offset-md-3 col">
+                              <div class="row">
+                                <div class="col-12 col-md">
+                                  <a href="#" class="btn ordering-buyer__add-details"><i class="icon-add"></i>Прикрепить реквизиты</a>
+                                </div>
+                                <div class="col">
+                                  <div class="ordering-buyer__file-details"><i class="icon-file"></i>Реквизиты.doc <span></span></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row align-items-center">
+                            <div class="col-12 col-md-3">
+                              <b>Адрес доставки</b>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="input" placeholder="Страна, город, улица, дом">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12 col-md-3">
+                              <b>Комментарий к заказу</b>
+                            </div>
+                            <div class="col">
+                              <textarea class="input" placeholder="Оставьте комментарий к заказу при необходимости"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <script>
+                      $('.phone input').mask('(999) 999-99-99');
+                    </script>
+                    <div class="ordering-section__nav row">
+                      <div class="col-auto">
+                        <a href="#" class="btn btn-bordered"><i class="l-arrow"></i>Назад</a>
+                      </div>
+                      <div class="col-auto">
+                        <a href="#" class="btn">Оформить заказ</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-auto">
+                <div class="ordering-authorize">
+                  <div class="ordering-authorize__ico">
+                    <i class="icon-person2"></i>
+                  </div>
+                  <div class="ordering-authorize__title">Авторизуйтесь</div>
+                  <div class="ordering-authorize__text">для корректного отображения типа цен
+                    и удобства оформления заказа</div>
+                  <div>
+                    <a href="#" class="btn btn-white">Войти</a>
+                  </div>
+                  <a href="#" class="ordering-authorize__link">Зарегистрироваться</a>
+                </div>
+                <div class="ordering-total">
+                  <div class="ordering-total__title">Итого к оплате:</div>
+                  <div class="ordering-total__price">870 000 <i class="rub">&#8381;</i></div>
+                  <ul class="ordering-total__detail row">
+                    <li class="col-6 col-sm col-lg-12">
+                      <div class="ordering-total__subtitle">Состав заказа:</div>
+                      <a href="#">3 товара</a>
+                    </li>
+                    <li class="col-6 col-sm col-lg-12">
+                      <div class="ordering-total__subtitle">Способ доставки:</div>
+                      <div class="ordering-total__text">Самовывоз</div>
+                    </li>
+                    <li class="col-6 col-sm col-lg-12">
+                      <div class="ordering-total__subtitle">Стоимость доставки:</div>
+                      <div class="ordering-total__text">Бесплатно</div>
+                    </li>
+                    <li class="col-6 col-sm col-lg-12">
+                      <div class="ordering-total__subtitle">Способ оплаты:</div>
+                      <div class="ordering-total__text">Наличными</div>
+                    </li>
+                  </ul>
+                  <div class="ordering-total__submit">
+                    <a href="#" class="btn">Оформить заказ</a>
+                  </div>
+                  <div class="ordering-total__consent">
+                    <input type="checkbox" class="checkbox" id="order">
+                    <label for="order">
+                      <span>Нажимая на кнопку «Оформить заказ», вы даете согласие на обработку <a href="#">персональных данных</span></a>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="question">
+      <div class="container">
+        <div class="question__holder">
+          <div class="row">
+            <div class="col">
+              <p>
+                Задайте вопрос по продукции или сотрудничеству или просто позвоните нам <a href="#">8 800 333 37 02</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="btn btn-white"><i class="icon-qst"></i>Задать вопрос</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <div class="footer__logo">
+                <img src="f/img/logo2.png" alt="">
+              </div>
+              <div class="footer__caption">
+                <p>Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                © 2005-2018 <br>
+                ООО «Дизель Экспорт»
+              </div>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Компания</p>
+              <ul class="footer__menu">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Свидетельства и сертификаты</a></li>
+                <li><a href="#">Сервис и гарантии</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Новости</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Каталог</p>
+              <ul class="footer__menu">
+                <li><a href="#">Двигатели</a></li>
+                <li><a href="#">Синхронные генераторы</a></li>
+                <li><a href="#">Коробки переключения передач</a></li>
+                <li><a href="#">Запчасти</a></li>
+                <li><a href="#">Российский речной регистр</a></li>
+                <li><a href="#">Редуктор-генераторные установки</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Покупателю</p>
+              <ul class="footer__menu">
+                <li><a href="#">Оплата и доставки</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Прайс-листы</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Вопрос-ответ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Контакты</p>
+              <span>150044, г. Ярославль, Ленинградский проспект, д. 33, оф. 503</span>
+              <b><a href="#">sales@ecomd.ru</a></b>
+              <span>8 (800) 333-37-02</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__madeby">
+        <div class="container">
+          <span>Создание сайта</span> <a href="#"><i class="icon-inteo"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
