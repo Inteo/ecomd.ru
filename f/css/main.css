@@ -258,6 +258,14 @@ h2 {
     border-bottom: 1px dotted;
     line-height: 26px; }
 
+h3 {
+  font-size: 20px;
+  line-height: 25px; }
+
+h4 {
+  font-size: 16px;
+  line-height: 25px; }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none; }
@@ -327,6 +335,100 @@ input[type='number'] {
 
 button {
   cursor: pointer; }
+
+.marked-list {
+  list-style: none;
+  padding-left: 0; }
+  .marked-list li {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 15px; }
+    .marked-list li:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 4px;
+      width: 20px;
+      height: 20px;
+      background: url(../../f/img/sprite.png) no-repeat;
+      background-position: -45px -69px; }
+
+.num-list {
+  counter-reset: li;
+  padding: 0;
+  list-style: none; }
+
+.num-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px; }
+
+.num-list li:before {
+  content: counter(li) ".";
+  counter-increment: li;
+  font-weight: bold;
+  color: #163d95;
+  position: absolute;
+  left: 0; }
+
+.back-text {
+  padding: 50px 60px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  background: url(../../f/img/goos-list-back.png); }
+
+table.table {
+  border: 1px solid #f5f5f5;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 30px; }
+  @media (max-width: 576px) {
+    table.table tr:last-of-type td:last-of-type {
+      border: none; } }
+  table.table th {
+    background: #f5f5f5;
+    opacity: .55;
+    padding: 10px 0; }
+    table.table th:first-of-type {
+      padding-left: 20px; }
+    @media (max-width: 576px) {
+      table.table th {
+        position: absolute;
+        top: -9999px;
+        left: -9999px; } }
+  table.table tr {
+    border-bottom: 1px solid #f5f5f5; }
+    table.table tr:last-of-type {
+      border: none; }
+    @media (max-width: 576px) {
+      table.table tr {
+        display: block; }
+        table.table tr:first-of-type {
+          display: none; } }
+  table.table td {
+    padding: 10px 0; }
+    table.table td:first-of-type {
+      padding-left: 20px; }
+    table.table td:last-of-type {
+      padding-right: 20px; }
+    @media (max-width: 576px) {
+      table.table td {
+        display: block;
+        padding: 0 20px 5px;
+        border: none;
+        position: relative;
+        text-align: left; }
+        table.table td:before {
+          content: attr(data-label);
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 0 -20px;
+          width: calc(100% + 40px);
+          white-space: nowrap;
+          font-weight: bold;
+          background: #f5f5f5;
+          opacity: .55; } }
 
 .nav-tabs {
   list-style: none;
@@ -1126,19 +1228,19 @@ tbody.collapse.show {
   .categories__item:hover .categories__add {
     max-height: 9999px; }
 
-.goods-list__head {
+.head {
   position: relative;
   background-repeat: no-repeat;
   background-position: right top;
   padding: 40px 40px 50px 40px;
   margin-bottom: 30px; }
   @media (min-width: 768px) {
-    .goods-list__head {
+    .head {
       padding: 40px 50% 50px 40px; } }
   @media (max-width: 768px) {
-    .goods-list__head {
+    .head {
       background-image: none !important; } }
-  .goods-list__head:before {
+  .head:before {
     content: '';
     position: absolute;
     top: 0;
@@ -1148,7 +1250,7 @@ tbody.collapse.show {
     background: url(../../f/img/goos-list-back.png) no-repeat;
     background-size: cover;
     z-index: -1; }
-  .goods-list__head h1 {
+  .head h1 {
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 0; }
@@ -2415,3 +2517,70 @@ tbody.collapse.show {
     .ordering-buyer__file-details span:after {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg); }
+
+.page-slider {
+  position: relative; }
+  .page-slider__holder {
+    padding-bottom: 65px; }
+    @media (min-width: 992px) {
+      .page-slider__holder {
+        padding-bottom: 0; } }
+  .page-slider__img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-bottom: 10px; }
+    @media (min-width: 992px) {
+      .page-slider__img {
+        margin-bottom: 0;
+        height: 410px; } }
+  .page-slider__nav {
+    margin-left: -10px;
+    display: inline-block;
+    vertical-align: top; }
+    .page-slider__nav button {
+      width: 50px;
+      height: 50px;
+      background: transparent;
+      border: 1px solid #163d95;
+      margin-left: 10px;
+      position: relative;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease;
+      cursor: pointer;
+      line-height: 30px;
+      display: inline-block;
+      vertical-align: bottom; }
+      .page-slider__nav button:hover {
+        background: #0043da;
+        color: #fff; }
+      .page-slider__nav button:focus {
+        outline: none; }
+      .page-slider__nav button:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 3px;
+        top: 0;
+        bottom: 0;
+        width: 10px;
+        height: 10px;
+        margin: auto;
+        border-left: 2px solid #163d95;
+        border-bottom: 2px solid #163d95;
+        -webkit-transform: rotate(-135deg);
+                transform: rotate(-135deg); }
+      .page-slider__nav button:hover:before {
+        border-color: #fff; }
+      .page-slider__nav button.prev:before {
+        right: -2px;
+        -webkit-transform: rotate(45deg);
+                transform: rotate(45deg); }
+  .page-slider__nav-holder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; }
