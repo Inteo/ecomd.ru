@@ -1767,8 +1767,11 @@ tbody.collapse.show {
       background: #163d95 url(../../f/img/question-back.jpg) center 0 no-repeat;
       background-size: cover; } }
   .question__holder {
-    padding: 50px 60px;
+    padding: 50px 0;
     margin-bottom: -10px; }
+    @media (min-width: 576px) {
+      .question__holder {
+        padding: 50px 60px; } }
   .question p {
     font-size: 25px;
     line-height: 35px;
@@ -1787,6 +1790,12 @@ tbody.collapse.show {
     width: 220px;
     margin-top: 10px;
     margin-bottom: 10px; }
+  .question .input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 20px; }
 
 .footer {
   background: #212121; }
@@ -2805,3 +2814,42 @@ tbody.collapse.show {
   line-height: 40px;
   cursor: pointer;
   margin-bottom: 10px; }
+
+.news {
+  padding-top: 10px;
+  margin-bottom: 50px; }
+  .news__item {
+    padding: 40px 40px;
+    border: 1px solid #f5f5f5;
+    margin-bottom: 20px; }
+    @media (min-width: 576px) {
+      .news__item {
+        padding: 40px 60px; } }
+    .news__item .btn {
+      min-width: 160px; }
+  .news__img {
+    border: 1px solid #f5f5f5;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 20px; }
+    @media (min-width: 576px) {
+      .news__img {
+        height: 280px; } }
+    @media (min-width: 992px) {
+      .news__img {
+        margin-bottom: 0; } }
+  @media (min-width: 992px) {
+    .news__content {
+      padding-left: 40px; } }
+  .news__date {
+    opacity: .5;
+    margin-bottom: 15px; }
+  .news__name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px; }
+  .news__text {
+    margin-bottom: 20px; }
