@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta content='true' name='HandheldFriendly' />
+  <meta content='width' name='MobileOptimized' />
+  <meta content='yes' name='apple-mobile-web-app-capable' />
+  <title>Ecomd</title>
+  <link rel="stylesheet" href="f/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-select.css">
+  <link href="f/slick/slick.css" type="text/css" rel="stylesheet">
+  <link href="f/fancybox/jquery.fancybox.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="f/css/main.css">
+  <script src="f/js/jquery-3.2.1.min.js"></script>
+  <script src="f/js/bootstrap-select.min.js"></script>
+  <script src="f/js/tether.min.js"></script>
+  <script src="f/js/popper.min.js"></script>
+  <script src="f/js/util.js"></script>
+  <script src="f/js/bootstrap.js"></script>
+  <script src="f/js/tooltip.js"></script>
+  <script src="f/slick/slick.min.js"></script>
+  <script src="f/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="f/js/jquery.maskedinput.min.js"></script>
+  <script src="f/js/main.js"></script>
+</head>
+<body> 
+  <div class="wrap">
+    <header class="header">
+      <div class="header__main">
+        <div class="container">
+          <div class="row">
+            <div class="header__logo col-auto">
+              <a href="/" class="logo btn">
+                <img src="f/img/logo.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <div class="header__info">
+                <div class="row no-gutters justify-content-between align-items-center">
+                  <p class="col-auto">Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                  <div class="col-auto">
+                    <div class="city-picker picker">
+                      <i class="icon-marker"></i>
+                      <select class="selectpicker" title="Ярославль">
+                        <option>Ярославль</option>
+                        <option>Москва</option>
+                        <option>Владимир</option>
+                        <option>Тутаев</option>
+                        <option>Санкт-Петербург</option>
+                      </select>
+                    </div>
+                    <ul class="header__info-menu">
+                      <li>
+                        <a href="#">О компании<i></i></a>
+                        <ul>
+                          <li><a href="#">1111111111</a></li>
+                          <li><a href="#">2222222222</a></li>
+                          <li><a href="#">3333333333</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Сервис и гарантия</a></li>
+                      <li><a href="#">Вопрос-ответ</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="header__nav">
+                <div class="row justify-content-between align-items-center no-gutters">
+                  <div class="header__menu col">
+                    <ul>
+                      <li><a href="#">Доставка и оплата</a></li>
+                      <li><a href="#">Спецпредложения</a></li>
+                      <li><a href="#">Прайс-листы</a></li>
+                      <li><a href="#">Контакты</a></li>
+                    </ul>
+                  </div>
+                  <div class="header__phone col-auto">
+                    <p>Бесплатный звонок</p>
+                    <b>8 800 333 37 02</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__add">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <a href="#" class="catalog-btn btn"><i class="icon-ham"></i>Каталог продукции</a>
+            </div>
+            <div class="col">
+              <div class="header__search">
+                <form action="">
+                  <i class="icon-lense"></i>
+                  <input type="text" class="input" placeholder="Поиск по каталогу">
+                </form>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="header__acc">
+                <a href="#"><i class="icon-person"></i>Войти</a>
+                <a href="#"><i class="icon-cart"></i>Корзина<b>0</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-content">
+            <div class="row">
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Дизельные двигатели</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ММЗ</a></li>
+                  <li><a href="#">Scania</a></li>
+                  <li><a href="#">John Deer</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Perkins</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Коробки переключения передач</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Синхронные генераторы</a></li>
+                  <li><a href="#">Linz</a></li>
+                  <li><a href="#">Leroy Somer</a></li>
+                  <li><a href="#">Sincro</a></li>
+                  <li><a href="#">БЭМЗ</a></li>
+                  <li><a href="#">Электроагрегат г. Курск</a></li>
+                  <li><a href="#">Marelli</a></li>
+                  <li><a href="#">Stamford</a></li>
+                  <li><a href="#">Запасные части</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Запасные части</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ЯЗДА</a></li>
+                  <li><a href="#">Компрессоры Аурида</a></li>
+                  <li><a href="#">Турбокомпрессоры CZ</a></li>
+                  <li><a href="#">Генераторы</a></li>
+                  <li><a href="#">Стартеры</a></li>
+                  <li><a href="#">Фильтры Дифа</a></li>
+                  <li><a href="#">Показать все<i></i></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Генераторы от ВОМ трактора</a></li>
+                  <li><a href="#">РГУ СКАТ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Российский Речной Регистр (РРР)</a></li>
+                  <li><a href="#">Редукторы DMT</a></li>
+                  <li><a href="#">Двигатели</a></li>
+                  <li><a href="#">Запчасти ЯМЗ</a></li>
+                  <li><a href="#">Генераторы синхронные</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main role="main" class="content">
+      <div class="container">
+        <div class="section">
+          <ul class="breadcrumbs">
+            <li><a href="#">Главная</a>
+            </li><li><a href="#">Контакты</a></li>
+          </ul>
+          <h1>Контакты</h1>
+          <div class="contacts">
+            <ul class=" nav nav-tabs row">
+              <li class="col-12 col-md"><a class="active" data-toggle="tab" href="#panel1">Ярославль</a></li>
+              <li class="col-12 col-md"><a data-toggle="tab" href="#panel2">Самара</a></li>
+              <li class="col-12 col-md"><a data-toggle="tab" href="#panel3">Краснодар</a></li>
+              <li class="col-12 col-md"><a data-toggle="tab" href="#panel4">Москва</a></li>
+            </ul>
+            <div class="tab-content">
+              <div id="panel1" class="tab-pane fade active show">
+                <div class="row contacts__main">
+                  <div class="col-12 col-lg-6">
+                    <ul class="contacts__branch">
+                      <li>
+                        <b>Офис:</b> 150044, г. Ярославль, Ленинградский проспект, д. 33, оф. 503
+                      </li>
+                      <li><b>Склад:</b> г. Ярославль, Ленинградский проспект, напротив дома 35</li>
+                      <li><b>E-mail:</b> sales@ecomd.ru</li>
+                      <li><b>Телефон:</b> +7 (4852) 695-795</li>
+                      <li><b>Время работы:</b> пн-пт 8:30-17:00</li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="employee">
+                      <div class="row">
+                        <div class="col-12 col-sm-auto">
+                          <div class="employee__photo">
+                            <img src="f/img/employee/1.jpg" alt="">
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="employee__info">
+                            <div class="employee__name">Кузьмин <br> Александр Германович</div>
+                            <div class="employee__post">Директор</div>
+                            <ul class="employee__contact">
+                              <li><b>Телефон:</b> +7-906-528-66-46</li>
+                              <li><b>E-mail:</b> <a href="#">comd@comd.ru</a></li>
+                            </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__map" style="background-image: url(f/img/map.jpg)"></div>
+                <div class="contacts-department">
+                  <div class="contacts-department__title" data-toggle="collapse" data-target="#scroll-down1" aria-expanded="true" aria-controls="scroll-down1">Отдел продаж</div>
+                  <div class="contacts-department__content collapse show" id="scroll-down1">
+                    <div class="row">
+                      <div class="col-12 col-xl-6">
+                        <div class="employee">
+                          <div class="row">
+                            <div class="col-12 col-md-auto">
+                              <div class="employee__photo">
+                                <img src="f/img/employee/2.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="employee__info">
+                                <div class="employee__name">Артамонов <br>Сергей Владимирович</div>
+                                <div class="employee__post">Начальник отдела продаж двигателей и запасных частей</div>
+                                <ul class="employee__contact">
+                                  <li><b>Телефон:</b> +7-962-204-22-00</li>
+                                  <li><b>E-mail:</b> <a href="#">sergey@comd.ru</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-6">
+                        <div class="employee">
+                          <div class="row">
+                            <div class="col-12 col-md-auto">
+                              <div class="employee__photo">
+                                <img src="f/img/employee/3.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="employee__info">
+                                <div class="employee__name">Веренина <br>Светлана Анатольевна</div>
+                                <div class="employee__post">Помощник менеджера по продажам</div>
+                                <ul class="employee__contact">
+                                  <li><b>Телефон:</b> +7-910-828-71-52</li>
+                                  <li><b>E-mail:</b> <a href="#">info@ecomd.ru</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-6">
+                        <div class="employee">
+                          <div class="row">
+                            <div class="col-12 col-md-auto">
+                              <div class="employee__photo">
+                                <img src="f/img/employee/4.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="employee__info">
+                                <div class="employee__name">Григорьев <br>Иван Александрович</div>
+                                <div class="employee__post">Менеджер отдела продаж двигателей и запасных частей</div>
+                                <ul class="employee__contact">
+                                  <li><b>Телефон:</b> +7-920-128-82-62</li>
+                                  <li><b>E-mail:</b> <a href="#">gia@ecomd.ru</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-6">
+                        <div class="employee">
+                          <div class="row">
+                            <div class="col-12 col-md-auto">
+                              <div class="employee__photo">
+                                <img src="f/img/employee/5.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="employee__info">
+                                <div class="employee__name">Дьяконенков <br>Александр Николаевич</div>
+                                <div class="employee__post">Менеджер отдела продаж двигателей и запасных частей</div>
+                                <ul class="employee__contact">
+                                  <li><b>Телефон:</b> +7-961-973-74-85</li>
+                                  <li><b>E-mail:</b> <a href="#">dizel@comd.ru</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-6">
+                        <div class="employee">
+                          <div class="row">
+                            <div class="col-12 col-md-auto">
+                              <div class="employee__photo">
+                                <img src="f/img/employee/6.jpg" alt="">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="employee__info">
+                                <div class="employee__name">Сизяков <br>Андрей Алексеевич</div>
+                                <div class="employee__post">Менеджер отдела продаж двигателей и запасных частей</div>
+                                <ul class="employee__contact">
+                                  <li><b>Телефон:</b> +7-920-124-18-68</li>
+                                  <li><b>E-mail:</b> <a href="#">saa@ecomd.ru</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts-department">
+                  <div class="contacts-department__title collapsed" data-toggle="collapse" data-target="#scroll-down2" aria-expanded="true" aria-controls="scroll-down2">Отдел снабжения</div>
+                  <div class="contacts-department__content collapse" id="scroll-down2">
+
+                  </div>
+                </div>
+                <div class="contacts-department">
+                  <div class="contacts-department__title collapsed" data-toggle="collapse" data-target="#scroll-down3" aria-expanded="true" aria-controls="scroll-down3">Отдел сервиса и гарантии</div>
+                  <div class="contacts-department__content collapse" id="scroll-down3">
+
+                  </div>
+                </div>
+                <div class="contacts-department">
+                  <div class="contacts-department__title collapsed" data-toggle="collapse" data-target="#scroll-down4" aria-expanded="true" aria-controls="scroll-down4">Отдел маркетинга</div>
+                  <div class="contacts-department__content collapse" id="scroll-down4">
+
+                  </div>
+                </div>
+                <div class="contacts-department">
+                  <div class="contacts-department__title collapsed" data-toggle="collapse" data-target="#scroll-down5" aria-expanded="true" aria-controls="scroll-down5">Бухгалтерия</div>
+                  <div class="contacts-department__content collapse" id="scroll-down5">
+
+                  </div>
+                </div>
+                <div class="contacts-department contacts-department_last">
+                  <div class="contacts-department__title collapsed" data-toggle="collapse" data-target="#scroll-down6" aria-expanded="true" aria-controls="scroll-down6">Склад</div>
+                  <div class="contacts-department__content collapse" id="scroll-down6">
+
+                  </div>
+                </div>
+                <div class="contacts__details">
+                  <h2>Реквизиты компании</h2>
+                  <ul>
+                    <li>ИНН: 7602076698</li>
+                    <li>КПП: 760201001</li>
+                    <li>ОГРН: 1107602000615</li>
+                    <li>ОКПО: 64791051</li>
+                    <li>ОКВЭД: 31.10</li>
+                    <li>Банк: Северный банк СБ РФ г. Ярославль</li>
+                    <li>Расчетный счет: 40702810577030004294</li>
+                    <li>Корреспондентский счет: 30101810500000000670</li>
+                    <li>БИК: 047888670</li>
+                  </ul>
+                  <p>Юридический адрес: 150044, г. Ярославль, Ленинградский проспект, д. 33, офис 503</p>
+                  <p>Адрес для корреспонденции: 150044, г. Ярославль, а/я 1425</p>
+                </div>
+              </div>
+              <div id="panel2" class="tab-pane fade">
+
+              </div>
+              <div id="panel3" class="tab-pane fade">
+
+              </div>
+              <div id="panel4" class="tab-pane fade">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="question">
+      <div class="container">
+        <div class="question__holder">
+          <div class="row">
+            <div class="col">
+              <p>
+                Задайте вопрос по продукции или сотрудничеству или просто позвоните нам <a href="#">8 800 333 37 02</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="btn btn-white"><i class="icon-qst"></i>Задать вопрос</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <div class="footer__logo">
+                <img src="f/img/logo2.png" alt="">
+              </div>
+              <div class="footer__caption">
+                <p>Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                © 2005-2018 <br>
+                ООО «Дизель Экспорт»
+              </div>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Компания</p>
+              <ul class="footer__menu">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Свидетельства и сертификаты</a></li>
+                <li><a href="#">Сервис и гарантии</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Новости</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Каталог</p>
+              <ul class="footer__menu">
+                <li><a href="#">Двигатели</a></li>
+                <li><a href="#">Синхронные генераторы</a></li>
+                <li><a href="#">Коробки переключения передач</a></li>
+                <li><a href="#">Запчасти</a></li>
+                <li><a href="#">Российский речной регистр</a></li>
+                <li><a href="#">Редуктор-генераторные установки</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Покупателю</p>
+              <ul class="footer__menu">
+                <li><a href="#">Оплата и доставки</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Прайс-листы</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Вопрос-ответ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Контакты</p>
+              <span>150044, г. Ярославль, Ленинградский проспект, д. 33, оф. 503</span>
+              <b><a href="#">sales@ecomd.ru</a></b>
+              <span>8 (800) 333-37-02</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__madeby">
+        <div class="container">
+          <span>Создание сайта</span> <a href="#"><i class="icon-inteo"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
