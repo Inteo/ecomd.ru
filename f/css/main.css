@@ -2916,11 +2916,6 @@ tbody.collapse.show {
     list-style: none;
     padding-left: 0;
     margin-bottom: -10px; }
-    @media (min-width: 768px) {
-      .employee__contact {
-        position: absolute;
-        bottom: 0;
-        left: 0; } }
     .employee__contact li {
       margin-bottom: 10px; }
 
