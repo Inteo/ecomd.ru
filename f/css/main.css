@@ -186,6 +186,48 @@ a:hover .icon-add {
   height: 29px;
   background-position: -383px 0; }
 
+.icon-active-order {
+  width: 49px;
+  height: 50px;
+  background-position: -411px 0;
+  margin-left: -8px; }
+
+.icon-history-order {
+  width: 55px;
+  height: 50px;
+  background-position: 0 -89px;
+  margin-left: -4px; }
+
+.icon-account {
+  width: 49px;
+  height: 50px;
+  background-position: -55px -89px;
+  margin-left: -8px; }
+
+.icon-manager {
+  width: 16px;
+  height: 16px;
+  background-position: -71px -73px;
+  margin: -5px 10px 0 0; }
+
+.icon-clock {
+  width: 16px;
+  height: 16px;
+  background-position: -87px -73px;
+  margin: -3px 10px 0 0; }
+
+.icon-repeat {
+  width: 14px;
+  height: 16px;
+  background-position: -108px -57px;
+  margin: -3px 15px 0 0; }
+
+.icon-check {
+  width: 16px;
+  height: 16px;
+  background-position: -108px -73px;
+  margin: -3px 10px 0 0; }
+
 @font-face {
   font-family: 'Noto Sans';
   src: url("../../f/fonts/NotoSans-Bold.eot");
@@ -706,16 +748,6 @@ input:checked.checkbox + label:after {
   .popup__submit {
     width: 160px;
     margin-bottom: 20px; }
-  .popup__phone {
-    position: relative; }
-    .popup__phone .input {
-      padding-left: 35px !important; }
-    .popup__phone:before {
-      content: '+7';
-      position: absolute;
-      left: 15px;
-      top: 7px;
-      display: block; }
 
 .phone {
   position: relative; }
@@ -2584,3 +2616,192 @@ tbody.collapse.show {
     left: 0;
     width: 100%;
     height: 50px; }
+
+.account {
+  padding-top: 20px; }
+  .account__btn {
+    background: #f5f5f5;
+    display: block;
+    padding: 30px 40px;
+    color: #000;
+    height: calc(100% - 20px);
+    margin-bottom: 20px; }
+    .account__btn b {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 16px;
+      line-height: 25px; }
+    .account__btn:hover {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); }
+  .account__ico {
+    background: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px; }
+
+.account-data__price-type {
+  margin-top: -15px;
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .account-data__price-type {
+      line-height: 40px;
+      width: 280px;
+      margin-top: 0; } }
+  .account-data__price-type span {
+    border-bottom: 1px dotted;
+    color: #163d95;
+    cursor: pointer;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: baseline; }
+
+.account-menu {
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid #f5f5f5;
+  border-bottom: none;
+  border-right: none;
+  margin-bottom: 40px; }
+  @media (min-width: 992px) {
+    .account-menu {
+      width: 280px; } }
+  .account-menu li {
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    white-space: nowrap;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .account-menu li {
+        text-align: left; } }
+    .account-menu li a {
+      display: block;
+      line-height: 50px;
+      padding: 0 20px;
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease; }
+      .account-menu li a:hover {
+        background: #163d95;
+        color: #fff; }
+    .account-menu li.active a {
+      background: #f5f5f5;
+      color: #000;
+      pointer-events: none; }
+
+.account-manager {
+  background: #f5f5f5;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  display: none; }
+  @media (min-width: 992px) {
+    .account-manager {
+      display: block;
+      width: 280px; } }
+  .account-manager_mobile {
+    display: block; }
+    @media (min-width: 992px) {
+      .account-manager_mobile {
+        display: none; } }
+  .account-manager ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 25px; }
+    .account-manager ul li {
+      margin-bottom: 10px; }
+      .account-manager ul li span {
+        display: block; }
+  .account-manager .btn {
+    width: 180px; }
+
+.account-data .input {
+  line-height: 50px;
+  height: 50px;
+  padding-left: 20px; }
+
+.account-data .phone:before {
+  top: 12px; }
+
+.account-data__password {
+  margin-bottom: 20px; }
+
+.account-data button {
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.account-orders__title-link {
+  margin-bottom: 25px;
+  margin-top: -15px; }
+  @media (min-width: 768px) {
+    .account-orders__title-link {
+      margin-top: 0; } }
+
+.account-orders__item {
+  border: 1px solid #f5f5f5;
+  margin-bottom: 60px; }
+
+.account-orders__title {
+  border-bottom: 1px solid #f5f5f5; }
+
+.account-orders__num {
+  text-align: center;
+  width: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 0; }
+
+.account-orders__name {
+  background: #f5f5f5;
+  padding: 12px 20px;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #000; }
+
+.account-orders__content {
+  padding: 0 60px 20px;
+  color: #000; }
+  .account-orders__content .btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 160px;
+    margin-bottom: 10px; }
+
+.account-orders__main {
+  padding: 20px 0;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 30px; }
+
+.account-orders__date {
+  opacity: .5;
+  margin-bottom: 5px; }
+  @media (min-width: 768px) {
+    .account-orders__date {
+      margin-bottom: 0; } }
+
+.account-orders__text {
+  font-size: 16px;
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    .account-orders__text {
+      margin-bottom: 0; } }
+
+.account-orders__status {
+  font-weight: bold;
+  background: #f5f5f5;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  line-height: 30px;
+  color: #163d95;
+  display: inline-block;
+  vertical-align: top; }
+
+.account-orders__repeat {
+  color: #163d95;
+  line-height: 40px;
+  cursor: pointer;
+  margin-bottom: 10px; }
