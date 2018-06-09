@@ -1275,6 +1275,9 @@ tbody.collapse.show {
   @media (max-width: 768px) {
     .head {
       background-image: none !important; } }
+  .head_unpad {
+    padding-left: 0;
+    padding-right: 0; }
   .head:before {
     content: '';
     position: absolute;
@@ -2969,3 +2972,49 @@ tbody.collapse.show {
     @media (min-width: 576px) {
       .contacts-department__content {
         padding: 40px 60px 0; } }
+
+.delivery {
+  padding-top: 20px; }
+  .delivery h2 {
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px; }
+  .delivery__order {
+    padding: 20px 0 10px; }
+    .delivery__order-hint {
+      opacity: .8;
+      margin-bottom: 30px; }
+    .delivery__order .btn {
+      margin-bottom: 30px; }
+  .delivery__map {
+    border: 2px solid #f5f5f5;
+    margin-bottom: 50px; }
+    .delivery__map img {
+      max-width: 100%; }
+  .delivery__transport ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 20px; }
+    .delivery__transport ul li {
+      pointer-events: none; }
+      .delivery__transport ul li .texted-radio_ico + label:before,
+      .delivery__transport ul li .texted-radio_ico + label:after {
+        display: none; }
+      .delivery__transport ul li .texted-radio__img {
+        padding-left: 20px;
+        padding-right: 20px; }
+      .delivery__transport ul li .texted-radio_ico + label .texted-radio__text {
+        display: block;
+        padding-left: 0;
+        text-align: center; }
+  .delivery .section {
+    padding-top: 20px; }
+  .delivery__pickup .num-list li {
+    margin-bottom: 20px; }
+    .delivery__pickup .num-list li b {
+      font-size: 16px;
+      line-height: 25px;
+      display: block;
+      margin-bottom: 20px; }
+    .delivery__pickup .num-list li p {
+      margin-bottom: 10px; }

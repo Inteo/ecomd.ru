@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta content='true' name='HandheldFriendly' />
+  <meta content='width' name='MobileOptimized' />
+  <meta content='yes' name='apple-mobile-web-app-capable' />
+  <title>Ecomd</title>
+  <link rel="stylesheet" href="f/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="f/css/bootstrap-select.css">
+  <link href="f/slick/slick.css" type="text/css" rel="stylesheet">
+  <link href="f/fancybox/jquery.fancybox.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="f/css/main.css">
+  <script src="f/js/jquery-3.2.1.min.js"></script>
+  <script src="f/js/bootstrap-select.min.js"></script>
+  <script src="f/js/tether.min.js"></script>
+  <script src="f/js/popper.min.js"></script>
+  <script src="f/js/util.js"></script>
+  <script src="f/js/bootstrap.js"></script>
+  <script src="f/js/tooltip.js"></script>
+  <script src="f/slick/slick.min.js"></script>
+  <script src="f/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="f/js/jquery.maskedinput.min.js"></script>
+  <script src="f/js/main.js"></script>
+</head>
+<body> 
+  <div class="wrap">
+    <header class="header">
+      <div class="header__main">
+        <div class="container">
+          <div class="row">
+            <div class="header__logo col-auto">
+              <a href="/" class="logo btn">
+                <img src="f/img/logo.png" alt="">
+              </a>
+            </div>
+            <div class="col">
+              <div class="header__info">
+                <div class="row no-gutters justify-content-between align-items-center">
+                  <p class="col-auto">Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                  <div class="col-auto">
+                    <div class="city-picker picker">
+                      <i class="icon-marker"></i>
+                      <select class="selectpicker" title="Ярославль">
+                        <option>Ярославль</option>
+                        <option>Москва</option>
+                        <option>Владимир</option>
+                        <option>Тутаев</option>
+                        <option>Санкт-Петербург</option>
+                      </select>
+                    </div>
+                    <ul class="header__info-menu">
+                      <li>
+                        <a href="#">О компании<i></i></a>
+                        <ul>
+                          <li><a href="#">1111111111</a></li>
+                          <li><a href="#">2222222222</a></li>
+                          <li><a href="#">3333333333</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Сервис и гарантия</a></li>
+                      <li><a href="#">Вопрос-ответ</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="header__nav">
+                <div class="row justify-content-between align-items-center no-gutters">
+                  <div class="header__menu col">
+                    <ul>
+                      <li><a href="#">Доставка и оплата</a></li>
+                      <li><a href="#">Спецпредложения</a></li>
+                      <li><a href="#">Прайс-листы</a></li>
+                      <li><a href="#">Контакты</a></li>
+                    </ul>
+                  </div>
+                  <div class="header__phone col-auto">
+                    <p>Бесплатный звонок</p>
+                    <b>8 800 333 37 02</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__add">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-auto">
+              <a href="#" class="catalog-btn btn"><i class="icon-ham"></i>Каталог продукции</a>
+            </div>
+            <div class="col">
+              <div class="header__search">
+                <form action="">
+                  <i class="icon-lense"></i>
+                  <input type="text" class="input" placeholder="Поиск по каталогу">
+                </form>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="header__acc">
+                <a href="#"><i class="icon-person"></i>Войти</a>
+                <a href="#"><i class="icon-cart"></i>Корзина<b>0</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-content">
+            <div class="row">
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Дизельные двигатели</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ММЗ</a></li>
+                  <li><a href="#">Scania</a></li>
+                  <li><a href="#">John Deer</a></li>
+                  <li><a href="#">Volvo</a></li>
+                  <li><a href="#">Perkins</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Коробки переключения передач</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Синхронные генераторы</a></li>
+                  <li><a href="#">Linz</a></li>
+                  <li><a href="#">Leroy Somer</a></li>
+                  <li><a href="#">Sincro</a></li>
+                  <li><a href="#">БЭМЗ</a></li>
+                  <li><a href="#">Электроагрегат г. Курск</a></li>
+                  <li><a href="#">Marelli</a></li>
+                  <li><a href="#">Stamford</a></li>
+                  <li><a href="#">Запасные части</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Запасные части</a></li>
+                  <li><a href="#">ЯМЗ</a></li>
+                  <li><a href="#">ТМЗ</a></li>
+                  <li><a href="#">ЯЗДА</a></li>
+                  <li><a href="#">Компрессоры Аурида</a></li>
+                  <li><a href="#">Турбокомпрессоры CZ</a></li>
+                  <li><a href="#">Генераторы</a></li>
+                  <li><a href="#">Стартеры</a></li>
+                  <li><a href="#">Фильтры Дифа</a></li>
+                  <li><a href="#">Показать все<i></i></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Генераторы от ВОМ трактора</a></li>
+                  <li><a href="#">РГУ СКАТ</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li><a href="#">Российский Речной Регистр (РРР)</a></li>
+                  <li><a href="#">Редукторы DMT</a></li>
+                  <li><a href="#">Двигатели</a></li>
+                  <li><a href="#">Запчасти ЯМЗ</a></li>
+                  <li><a href="#">Генераторы синхронные</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main role="main" class="content">
+      <div class="container">
+        <div class="section section_unbot">
+          <div class="head head_unpad">
+            <div class="row justify-content-center">
+              <div class="col-11 col-md-9 col-lg-7">
+                <ul class="breadcrumbs">
+                  <li><a href="#">Главная</a>
+                  </li><li><a href="#">Доставка по России и СНГ</a></li>
+                </ul>
+                <h1>Доставка по России и СНГ</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-11 col-md-9 col-lg-7">
+              <div class="delivery">
+                <h2>Быстрая и надежная доставка вашего заказа по России и странам СНГ</h2>
+                <p>Условия доставки компании «Дизель Экспорт» созданы для обеспечения наиболее выгодного и удобного способа доставки нашей продукции до Вашего склада. </p>
+                <div class="delivery__order row">
+                  <div class="col-12 col-md">
+                    <div class="delivery__order-hint row no-gutters">
+                      <div class="col-auto">
+                        <i class="icon-mail"></i>
+                      </div>
+                      <div class="col">
+                        Отправьте заявку, прикрепив файл со списком товаров, которые хотите заказать и мы свяжемся с Вами в течение 24 часов.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <a href="#" class="btn">отправить заявку</a>
+                  </div>
+                </div>
+                <div class="delivery__map">
+                  <img src="f/img/map2.jpg" alt="">
+                </div>
+                <div class="delivery__transport">
+                  <h2>Мы сотрудничаем с ведущими транспортными компаниями</h2>
+                  <p>Скомплектованный и упакованный заказ доставляется до терминала транспортных компаний в пределах города бесплатно и вне зависимости от стоимости товара.</p>
+                  <ul class="row">
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/1.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">ПЭК</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/2.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">ЖелДор Экспедиция</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/3.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">Грузовозофф</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/4.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">Деловые линии</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/5.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">Байкал Сервис</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/6.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">Энергия</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/7.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">Ратэк</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/8.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">КИТ</span>
+                      </label>
+                    </li>
+                    <li class="col-12 col-md-6 col-xl-4">
+                      <div class="texted-radio texted-radio_ico"></div>
+                      <label>
+                        <span class="texted-radio__img">
+                          <img src="f/img/transport/9.png" alt="">
+                        </span>
+                        <span class="texted-radio__text">Рейл Континент</span>
+                      </label>
+                    </li>
+                  </ul>
+                  <div>На сайтах транспортных компаний доступны калькуляторы расчета стоимости доставки, а также с помощью номера транспортной накладной, можно отслеживать местоположение груза в пути. <p><b>Сроки доставки: от 2 рабочих дней</b></p></div>
+                  <p>Если вы хотите узнать номер транспортной накладной, напишите нам через обратную связь или позвоните по телефонам: </p>
+                  <ol class="num-list">
+                    <li>+7 (4852) 695-795</li>
+                    <li>8 800 3333-702 (звонок по России бесплатный)</li>
+                  </ol>
+                  <p>Доставка в страны СНГ, а также в страны ближнего Зарубежья осуществляется транспортными компаниями или наемным транспортом, учитывая пожелания клиента.</p>
+                </div>
+                <section class="section section_unbot">
+                  <h2>Доставка транспортом компании «Дизель Экспорт»</h2>
+                  <p>Доставка транспортом компании «Дизель Экспорт» возможен и осуществляется на индивидуальных условиях предварительно утвержденных с личным менеджером. </p>
+                </section>
+                <section class="section section_unbot">
+                  <h2>Доставка в труднодоступные регионы России и СНГ</h2>
+                  <p>Доставка в труднодоступные регионы России и СНГ, в том числе доставки в районы Крайнего Севера осуществляется при помощи авиасообщения и специализированного автотранспорта на индивидуальных условиях предварительно утвержденных с личным менеджером. </p>
+                </section>
+                <section class="section section_unbot">
+                  <h2>Доставка по экспресс-почте </h2>
+                  <p>Доставка по экспресс-почте — для экономии времени клиентов возможен и данный вид отправки товара по принципу «от двери к двери» на указанный адрес. Заказ транспортируется в пункт назначения, где и вручаются получателю в максимально допустимо сжатые сроки.</p>
+                </section>
+                <section class="section section_unbot">
+                  <h2>Самовывоз</h2>
+                  <p>Самовывоз может быть осуществлен с территории складских помещений компании «Дизель Экспорт» по адресу:</p>
+                </section>
+                <section class="delivery__pickup section section_unbot">
+                  <ol class="num-list">
+                    <li>
+                      <b>Ярославль:</b>
+                      <p>Адрес: Ленинградский проспект, напротив дома 35</p>
+                      <p>Телефон и e-mail: +7 (4852) 695-795, <a href="#">sales@ecomd.ru</a></p>
+                      <p>Режим выдачи товара: ПН-ПТ с 8.30 до 17.00, СБ, ВС — выходной день</p>
+                    </li>
+                    <li>
+                      <b>Самара:</b>
+                      <p>Адрес: улица Уральская, дом 34</p>
+                      <p>Телефон и e-mail: +7 (846) 254-51-00, <a href="#">sm@ecomd.ru</a></p>
+                      <p>Режим выдачи товара: ПН-ПТ с 8.30 до 17.00, СБ, ВС — выходной день</p>
+                    </li>
+                    <li>
+                      <b>Краснодар:</b>
+                      <p>Адрес: улица Е. Бершанской, дом 351/1</p>
+                      <p>Телефон и e-mail: +7 (861) 217-71-00, <a href="#">kr@ecomd.ru</a></p>
+                      <p>Режим выдачи товара: ПН-ПТ с 8.30 до 17.00, СБ, ВС — выходной день</p>
+                    </li>
+                  </ol>
+                  <p>В связи с тем, что территория склада является закрытым для свободного посещения объектом, перед приездом необходимо согласовать дату и время забора товара с личным менеджером. Сделать это можно по нашему общему телефону, либо при оформлении заказа.</p>
+                </section>
+                <section class="section">
+                  <h2>Гарантия доставки и оплата</h2>
+                  <p>Вне зависимости от выбранной транспортной компании и её условий, отправленные грузы, получившие механические повреждения при доставке, а также при возникновении обстоятельств непреодолимой силы транспортные компании обязуются возместить ущерб клиенту.
+                  </p>
+                  <p>Таким образом, Вы можете быть уверены, что Ваш заказ застрахован от любых неприятностей!</p>
+                  <p>Оплата с нашей компанией производится путем безналичного расчета, перечислением денежных средств на счет организации. Также имеется возможность осуществления оплаты наличными средствами в офисе города Самары.
+                  </p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="question">
+      <div class="container">
+        <div class="question__holder">
+          <div class="row">
+            <div class="col">
+              <p>
+                Задайте вопрос по продукции или сотрудничеству или просто позвоните нам <a href="#">8 800 333 37 02</a>
+              </p>
+            </div>
+            <div class="col-auto">
+              <a href="#" class="btn btn-white"><i class="icon-qst"></i>Задать вопрос</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <div class="footer__logo">
+                <img src="f/img/logo2.png" alt="">
+              </div>
+              <div class="footer__caption">
+                <p>Продажа запчастей для авто, спецтехники и водного транспорта</p>
+                © 2005-2018 <br>
+                ООО «Дизель Экспорт»
+              </div>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Компания</p>
+              <ul class="footer__menu">
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Свидетельства и сертификаты</a></li>
+                <li><a href="#">Сервис и гарантии</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Новости</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 col-md-4 footer__col">
+              <p class="footer__subtitle">Каталог</p>
+              <ul class="footer__menu">
+                <li><a href="#">Двигатели</a></li>
+                <li><a href="#">Синхронные генераторы</a></li>
+                <li><a href="#">Коробки переключения передач</a></li>
+                <li><a href="#">Запчасти</a></li>
+                <li><a href="#">Российский речной регистр</a></li>
+                <li><a href="#">Редуктор-генераторные установки</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Покупателю</p>
+              <ul class="footer__menu">
+                <li><a href="#">Оплата и доставки</a></li>
+                <li><a href="#">Спецпредложения</a></li>
+                <li><a href="#">Прайс-листы</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Вопрос-ответ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg col-sm-6 footer__col">
+              <p class="footer__subtitle">Контакты</p>
+              <span>150044, г. Ярославль, Ленинградский проспект, д. 33, оф. 503</span>
+              <b><a href="#">sales@ecomd.ru</a></b>
+              <span>8 (800) 333-37-02</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__madeby">
+        <div class="container">
+          <span>Создание сайта</span> <a href="#"><i class="icon-inteo"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
